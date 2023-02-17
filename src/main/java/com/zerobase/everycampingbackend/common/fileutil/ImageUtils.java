@@ -40,4 +40,8 @@ public class ImageUtils {
         String extension = multipartFile.getOriginalFilename().substring(pos + 1);
         return !ObjectUtils.isEmpty(ImageFormat.getExtension(extension));
     }
+
+    public static MultipartFile resizeImage(MultipartFile multipartFile){
+        return null;
+    }
 }
